@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryLeakExample", "MemoryLeakExample\MemoryLeakExample.csproj", "{8CB01379-9E45-4887-BEB8-DAAE82832FA3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{02D9D04B-4F91-4C36-BC1B-A50C11F9F03B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
