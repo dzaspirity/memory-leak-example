@@ -7,5 +7,7 @@ namespace MemoryLeakExample
         public const int Size = 100;
 
         public string Body { get; } = string.Empty.PadRight(Size);
+
+        public event EventHandler Event;
     }
 }
