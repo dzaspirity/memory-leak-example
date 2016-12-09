@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace MemoryLeakExample
 {
@@ -10,13 +9,15 @@ namespace MemoryLeakExample
             while (true)
             {
                 BigItem bigItem = new BigItem();
-                bigItem.Event += BigItemOnEvent;  
+                Event += bigItem.OnEvent;
+
+                // do
+                // many
+                // things
+                // here
             }
         }
 
-        private static void BigItemOnEvent(object sender, EventArgs eventArgs)
-        {
-            // do nothing
-        }
+        public static event EventHandler Event;
     }
 }
