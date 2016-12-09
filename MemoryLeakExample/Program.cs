@@ -15,6 +15,8 @@ namespace MemoryLeakExample
                 // many
                 // things
                 // here
+
+                Event -= bigItem.OnEvent;
             }
         }
 
