@@ -6,9 +6,11 @@ namespace MemoryLeakExample
     {
         static void Main(string[] args)
         {
+            List<BigItem> list = new List<BigItem>();
             while (true)
             {
                 BigItem bigItem = new BigItem();
+                list.Add(bigItem);
             }
         }
     }
